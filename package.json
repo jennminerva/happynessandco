@@ -1,14 +1,14 @@
 {
-  "name": "XXXX",
+  "name": "Happyness & Co.",
   "version": "0.0.0",
-  "description": "XXXXXX",
+  "description": "A bakery website for the user to view a menu and request a quote",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
-    "url": "idk"
+    "url": "happynessandco.com"
   },
   "engines": {
     "node": "6.9.1",
