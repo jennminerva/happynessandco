@@ -1,12 +1,12 @@
 {
-  "name": "Happyness and Co.",
-  "version": "0.0.0",
+  "name": "Happyness & Co.",
+  "version": "0.1.0",
   "description": "A bakery website for the user to view a menu and request a quote",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "repository": {
+  "repository": "https://github.com/jennminerva/happynessandco",
     "type": "git",
     "url": "happynessandco.com"
   },
@@ -16,31 +16,41 @@
   },
   "author": "Jenn Minerva",
   "license": "MIT",
+  "engines": {
+    "npm": "4.1.1",
+    "node": "6.9.1"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
+    "JSONStream": "3.2.1",
     "bcryptjs": "^0.7.12",
     "body-parser": "^1.9.0",
+    "clipboard": "^1.6.1",
+    "connect-ensure-login": "^0.1.1",
     "cookie-parser": "^1.3.3",
-    "dotenv": "^4.0.0",
+    "debug": "~2.2.0",
+    "dotenv": "^1.2.0",
     "ejs": "^2.4.2",
     "express": "^4.9.5",
     "express-handlebars": "^1.1.0",
     "express-session": "^1.8.2",
-    "jquery": "latest",
-    "jquery-validation": "^1.16.0",
-    "method-override": "^2.2.0",
-    "morgan": "^1.3.2",
-    "nodemon": "^1.9.2",
-    "orchestrate": "^0.3.11",
-    "q": "^1.0.1",
-    "lodash": "latest",
-    "grunt": "^0.4.5",
+    "get-json": "^0.0.3",
+    "grunt": "^1.0.1",
     "grunt-cli": "^0.1.13",
     "grunt-contrib-concat": "^0.5.0",
     "grunt-contrib-stylus": "^0.20.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-remove": "^0.1.0",
-    "flexboxgrid": "5.0.0",
-    "normalize-css": "latest",
-    "velocityjs": "latest"
+    "jquery": "latest",
+    "lodash": "^4.17.4",
+    "method-override": "^2.2.0",
+    "nodemon": "^1.9.2",
+    "orchestrate": "^0.3.11",
+    "q": "^1.0.1",
+    "random-zipcode": "^1.0.2",
+    "serve-favicon": "~2.3.0",
+    "whatwg-fetch": "^2.0.2"
   }
 }

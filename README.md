@@ -10,7 +10,7 @@ This app is built on `Node` (`6.9.1`), using `npm` (`4.1.1`) to manage all depen
 
 1. Clone the repo.
 2. Install `Node` and `npm`
-3. `npm install`.
-4. `grunt` (used this to compile `stylus` and client side JavaScript)
+3. Run `npm install`.
+4. Run `grunt` (used this to compile `stylus` and client side JavaScript)
 5. Run the app with `npm run start`
 6. Open the app `http://localhost:8000`
