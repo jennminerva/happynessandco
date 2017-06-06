@@ -1,6 +1,6 @@
 # Happyness & Co.
 
-A little home bakery site that allows the user view current menu offerings and place a request for a baked good
+A lil home bakery site
 
 ### Get started
 
@@ -12,5 +12,5 @@ This app is built on `Node` (`6.9.1`), using `npm` (`4.1.1`) to manage all depen
 2. Install `Node` and `npm`
 3. Run `npm install`.
 4. Run `grunt` (used this to compile `stylus` and client side JavaScript)
-5. Run the app with `npm run start`
-6. Open the app `http://localhost:8000`
+5. Run the app with `npm start`
+6. Open the app `http://localhost:9999`
