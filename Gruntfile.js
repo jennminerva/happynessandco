@@ -8,23 +8,20 @@ module.exports = function(grunt) {
       },
       compile: {
         files: {
-          '_site/master.css': '_resources/_styles/master.styl',
+          'master.css': '_resources/_styles/master.styl',
         }
       }
     },
     concat: {
       dist: {
-        src: ['node_modules/jquery/dist/jquery.min.js', '_resources/_scripts/main.js'],
-        dest: '_site/master.js',
-      }
-    },
-    concat: {   
-      dist: {
         src: [
-          'bower_components/jquery/dist/jquery.js',
+          'node_modules/jquery/dist/jquery.min.js',
+          'node_modules/lodash/lodash.min.js',
+          'node_modules/clipboard/dist/clipboard.min.js',
+          '_resources/_scripts/ui.js',
           '_resources/_scripts/main.js'
-        ], 
-        dest: '_site/master.js',
+        ],
+        dest: 'master.js',
       }
     },
     watch: {

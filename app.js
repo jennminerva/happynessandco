@@ -13,4 +13,4 @@ app.get("/", (req, res) =>
   res.render("index.ejs"));
   console.log('Listening at http://localhost:9999/')
 
-app.listen(process.env.PORT || 9999);
+app.listen(process.env.PORT || 8989);
