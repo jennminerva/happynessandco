@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       },
       compile: {
         files: {
-          'master.css': '_resources/_styles/master.styl',
+          './public/master.css': '_resources/_styles/master.styl',
         }
       }
     },
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
           '_resources/_scripts/ui.js',
           '_resources/_scripts/main.js'
         ],
-        dest: 'master.js',
+        dest: './public/master.js',
       }
     },
     watch: {
