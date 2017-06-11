@@ -334,4 +334,24 @@ p {
 }
 .ContentContainer {
   border: 1px solid #fe6d6a;
+  margin: 2.3rem;
+}
+.Logo {
+  margin: 4rem 3rem;
+  width: 60%;
+}
+.Greeting {
+  margin: 1rem 3rem;
+  font-size: 1.3rem;
+  line-height: 175%;
+}
+button {
+  background: transparent;
+  border: 1px solid #fe6d6a;
+  border-radius: 75px;
+  color: #fe6d6a;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  margin: 4rem 3rem;
+  padding: 1rem 2rem;
 }
