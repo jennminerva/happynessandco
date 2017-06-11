@@ -30,13 +30,15 @@ p {
 .ContentContainer {
   border: 1px solid #ff3431;
   margin: 2.3rem;
-  padding: 4rem 3rem;
+  padding: 5rem 3rem;
+  background: #ffe3e2
+  z-index: 999;
 }
 .Logo {
   width: 75%;
 }
 .Greeting {
-  margin: 1rem 0;
+  margin: 5rem 0 0 0;
   line-height: 175%;
 }
 button {
@@ -44,9 +46,33 @@ button {
   border: 1px solid #ff3431;
   border-radius: 75px;
   color: #ff3431;
+  height: 4rem;
   font-size: 1.3rem;
   letter-spacing: 2px;
-  margin: 4rem 0;
-  padding: 1rem 2rem;
+  padding: 1rem 3rem;
   text-transform: uppercase;
+}
+.BtnRequest {
+  margin: 5rem 0 0 0;
+}
+.Instagram {
+  margin: 7rem 0 0 0; 
+}
+.Instagram p {
+  display: inline;
+  margin: 0 0 0 1rem;
+}
+.Instagram img {
+  position: relative;
+  top: 6px;
+}
+// I think there is a better way to do what follows, but idk what that better way is
+.ContentContainerShadow {
+  position: absolute;
+  border: 1px solid #ff3431;
+  top: 2.8rem;
+  right: 1.8rem;
+  height: 54.8rem;
+  width: 33rem;
+  z-index: -999;
 }
