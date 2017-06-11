@@ -320,7 +320,7 @@ body {
   margin: 0;
   padding-bottom: 10vw;
   background: #ffe3e2;
-  color: #fe6d6a;
+  color: #ff3431;
 }
 .hidden {
   display: none;
@@ -330,28 +330,29 @@ img {
   max-width: 100%;
 }
 p {
-  color: #fe6d6a;
+  color: #ff3431;
+  font-size: 1.4rem;
 }
 .ContentContainer {
-  border: 1px solid #fe6d6a;
+  border: 1px solid #ff3431;
   margin: 2.3rem;
+  padding: 4rem 3rem;
 }
 .Logo {
-  margin: 4rem 3rem;
-  width: 60%;
+  width: 75%;
 }
 .Greeting {
-  margin: 1rem 3rem;
-  font-size: 1.3rem;
+  margin: 1rem 0;
   line-height: 175%;
 }
 button {
   background: transparent;
-  border: 1px solid #fe6d6a;
+  border: 1px solid #ff3431;
   border-radius: 75px;
-  color: #fe6d6a;
+  color: #ff3431;
   font-size: 1.3rem;
   letter-spacing: 2px;
-  margin: 4rem 3rem;
+  margin: 4rem 0;
   padding: 1rem 2rem;
+  text-transform: uppercase;
 }
