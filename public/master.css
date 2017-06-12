@@ -338,7 +338,7 @@ p {
   margin: 2.3rem;
   padding: 5rem 3rem;
   background: #ffe3e2;
-  z-index: 999;
+  position: relative;
 }
 .Logo {
   width: 75%;
@@ -372,12 +372,13 @@ button {
   position: relative;
   top: 6px;
 }
-.ContentContainerShadow {
+.ContentContainer:before {
+  content: '';
   position: absolute;
+  top: 5px;
+  left: 5px;
+  right: -10px;
+  bottom: -10px;
   border: 1px solid #ff3431;
-  top: 2.8rem;
-  right: 1.8rem;
-  height: 54.8rem;
-  width: 33rem;
-  z-index: -999;
+  z-index: -1;
 }
