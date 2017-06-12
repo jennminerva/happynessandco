@@ -331,12 +331,12 @@ img {
 }
 p {
   color: #ff3431;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
 }
 .ContentContainer {
   border: 1px solid #ff3431;
   margin: 2.3rem;
-  padding: 5rem 3rem;
+  padding: 3rem 3rem 4rem 3rem;
   background: #ffe3e2;
   position: relative;
 }
@@ -362,11 +362,11 @@ button {
   margin: 5rem 0 0 0;
 }
 .Instagram {
-  margin: 7rem 0 0 0;
+  margin: 6rem 0 0 0;
 }
 .Instagram p {
   display: inline;
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 0.5rem;
 }
 .Instagram img {
   position: relative;
