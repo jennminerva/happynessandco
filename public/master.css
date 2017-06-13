@@ -437,6 +437,7 @@ button {
 .FoodMenuList dt {
   font-size: 1.5rem;
   margin: 1rem;
+  color: #ff3431;
 }
 .FoodMenuList dd {
   margin: 0 0 4rem 3rem;
