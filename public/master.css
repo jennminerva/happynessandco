@@ -320,7 +320,6 @@ body {
   margin: 0;
   padding-bottom: 10vw;
   background: #ffe3e2;
-  color: #ff3431;
 }
 .hidden {
   display: none;
@@ -330,11 +329,12 @@ img {
   max-width: 100%;
 }
 p {
-  color: #ff3431;
   font-size: 1.5rem;
 }
 #Welcome {
   margin: 6rem 0;
+  background: #ffe3e2;
+  color: #ff3431;
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -397,4 +397,11 @@ button {
 }
 .ImgRight {
   float: right;
+}
+#Menu {
+  background: #fff f;
+  background-image: linear-gradient(#ffe3e2, #fff);
+  height: 40rem;
+  width: 100%;
+  position: relative;
 }
