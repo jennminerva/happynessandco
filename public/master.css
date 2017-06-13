@@ -25,6 +25,7 @@ a:visited,
 a:active {
   text-decoration: none;
   color: #fe6d6a;
+  border-bottom: 1px solid;
 }
 strong {
   font-weight: normal;
@@ -43,6 +44,10 @@ h6 {
   position: relative;
   z-index: 9999;
   cursor: default;
+}
+.HeadingSmall {
+  font-size: 2rem;
+  color: #ff3431;
 }
 .CircularStd {
   font-family: 'CircularStd', sans-serif;
@@ -424,4 +429,15 @@ button {
 }
 .FoodMenuPricing li {
   width: 50%;
+}
+.FoodMenuList {
+  margin: 5rem;
+}
+.FoodMenuList dt {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.FoodMenuList dd {
+  margin: 0 0 4rem 3rem;
+  line-height: 150%;
 }
