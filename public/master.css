@@ -44,6 +44,13 @@ h6 {
   z-index: 9999;
   cursor: default;
 }
+.CircularStd {
+  font-family: 'CircularStd', sans-serif;
+  font-size: 1.3rem;
+}
+.AlignRight {
+  text-align: right;
+}
 .mb0 {
   margin-bottom: 4px;
 }
@@ -331,10 +338,14 @@ img {
 p {
   font-size: 1.5rem;
 }
-#Welcome {
-  margin: 6rem 0;
+.PinkBackground {
   background: #ffe3e2;
+  padding: 0;
+  margin: 0;
+}
+#Welcome {
   color: #ff3431;
+  overflow: auto;
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -343,7 +354,7 @@ p {
   background: #ffe3e2;
   position: relative;
 }
-.Logo {
+.HeadingLarge {
   width: 75%;
 }
 .Greeting {
@@ -375,7 +386,7 @@ button {
   position: relative;
   top: 6px;
 }
-.ContentContainer:before {
+.ContentContainer:after {
   content: '';
   position: absolute;
   top: 5px;
@@ -398,10 +409,19 @@ button {
 .ImgRight {
   float: right;
 }
-#Menu {
-  background: #fff f;
-  background-image: linear-gradient(#ffe3e2, #fff);
-  height: 40rem;
-  width: 100%;
-  position: relative;
+.FoodMenuContainer p {
+  margin: 2rem 0 0 0;
+}
+.FoodMenuPricing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 1.5rem;
+  margin: 4rem 0;
+  padding: 0;
+  line-height: 175%;
+}
+.FoodMenuPricing li {
+  width: 50%;
 }

@@ -25,10 +25,16 @@ img {
 p {
   font-size: 1.5rem
 }
-#Welcome {
-  margin: 6rem 0;
+.PinkBackground {
   background: #ffe3e2;
+  padding: 0;
+  margin: 0;
+}
+#Welcome {
+  // margin: 0 0 4rem 0;
+  // background: #ffe3e2;
   color: #ff3431;
+  overflow: auto;
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -37,7 +43,7 @@ p {
   background: #ffe3e2
   position: relative;
 }
-.Logo {
+.HeadingLarge {
   width: 75%;
 }
 .Greeting {
@@ -69,7 +75,7 @@ button {
   position: relative;
   top: 6px;
 }
-.ContentContainer:before {
+.ContentContainer:after {
   content: '';
   position: absolute;
   top: 5px;
