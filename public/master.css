@@ -343,11 +343,6 @@ img {
 p {
   font-size: 1.5rem;
 }
-.PinkBackground {
-  background: #ffe3e2;
-  padding: 0;
-  margin: 0;
-}
 #Welcome {
   color: #ff3431;
   overflow: auto;
@@ -359,11 +354,24 @@ p {
   background: #ffe3e2;
   position: relative;
 }
+@media (min-width: 48em) {
+  .ContentContainer {
+    color: #000;
+    margin: 6rem;
+    padding: 6rem;
+  }
+}
+@media (min-width: 75em) {
+  .ContentContainer {
+    max-width: 375px;
+    float: right;
+  }
+}
 .HeadingLarge {
   width: 75%;
 }
 .Greeting {
-  margin: 5rem 0 0 0;
+  margin: 5rem 0;
   line-height: 175%;
 }
 button {
@@ -377,9 +385,6 @@ button {
   padding: 1rem 3rem;
   text-transform: uppercase;
   font-family: 'CircularStdBook', sans-serif;
-}
-.BtnRequest {
-  margin: 5rem 0 0 0;
 }
 .Centered {
   margin: 0 auto;
@@ -406,8 +411,13 @@ button {
   border: 1px solid #ff3431;
   z-index: -1;
 }
-.Gallery {
+.GallerySmall {
   margin: 6rem 0;
+}
+@media (min-width: 75em) {
+  .GallerySmall {
+    display: none;
+  }
 }
 .GalleryImg {
   max-width: 80%;
@@ -436,6 +446,11 @@ button {
   padding: 0;
   line-height: 175%;
 }
+@media (min-width: 48em) {
+  .FoodMenuPricing {
+    margin: 4rem 15rem;
+  }
+}
 .FoodMenuPricing li {
   width: 50%;
 }
@@ -444,6 +459,11 @@ button {
   position: relative;
   top: 4rem;
   clear: both;
+}
+@media (min-width: 48em) {
+  .FoodMenuList {
+    margin: 9rem 11rem;
+  }
 }
 .FoodMenuList dt {
   font-size: 1.5rem;

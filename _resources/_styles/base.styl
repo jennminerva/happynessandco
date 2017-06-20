@@ -25,14 +25,7 @@ img {
 p {
   font-size: 1.5rem
 }
-.PinkBackground {
-  background: #ffe3e2;
-  padding: 0;
-  margin: 0;
-}
 #Welcome {
-  // margin: 0 0 4rem 0;
-  // background: #ffe3e2;
   color: #ff3431;
   overflow: auto;
 }
@@ -43,11 +36,25 @@ p {
   background: #ffe3e2
   position: relative;
 }
+@media tablet {
+  .ContentContainer {
+    color: black;
+    margin: 6rem;
+    padding: 6rem;  
+  }
+}
+@media desktop {
+  .ContentContainer {
+    max-width: 375px;
+    float: right;
+  }
+}
+
 .HeadingLarge {
   width: 75%;
 }
 .Greeting {
-  margin: 5rem 0 0 0;
+  margin: 5rem 0;
   line-height: 175%;
 }
 button {
@@ -61,9 +68,6 @@ button {
   padding: 1rem 3rem;
   text-transform: uppercase;
   font-family: 'CircularStdBook', sans-serif;
-}
-.BtnRequest {
-  margin: 5rem 0 0 0;
 }
 .Centered {
   margin: 0 auto;
@@ -94,8 +98,13 @@ button {
 
 // Gallery
 
-.Gallery {
+.GallerySmall {
   margin: 6rem 0;
+}
+@media desktop {
+  .GallerySmall {
+    display: none;
+  }
 }
 .GalleryImg {
   max-width: 80%;
