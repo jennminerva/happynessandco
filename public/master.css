@@ -419,6 +419,14 @@ button {
     display: none;
   }
 }
+.GalleryLg {
+  display: none;
+}
+@media (min-width: 75em) {
+  .GalleryLg {
+    display: block;
+  }
+}
 .GalleryImg {
   max-width: 80%;
   margin: 2.5rem 0;
@@ -449,6 +457,11 @@ button {
 @media (min-width: 48em) {
   .FoodMenuPricing {
     margin: 4rem 15rem;
+  }
+}
+@media (min-width: 75em) {
+  .FoodMenuPricing {
+    margin: 4rem 0;
   }
 }
 .FoodMenuPricing li {
