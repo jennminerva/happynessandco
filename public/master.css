@@ -495,6 +495,14 @@ button {
 .FoodMenuContainer p {
   margin: 2rem 0 0 0;
 }
+@media (min-width: 75em) {
+  .FoodMenuContainer .ContentContainer {
+    float: left;
+    position: relative;
+    top: 3rem;
+    margin-left: 6rem;
+  }
+}
 .FoodMenuPricing {
   display: flex;
   flex-wrap: wrap;
@@ -529,6 +537,15 @@ button {
     margin: 9rem 11rem;
   }
 }
+@media (min-width: 75em) {
+  .FoodMenuList {
+    clear: none;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 8rem;
+  }
+}
 .FoodMenuList dt {
   font-size: 1.5rem;
   margin: 1rem;
@@ -537,4 +554,23 @@ button {
 .FoodMenuList dd {
   margin: 0 0 4rem 3rem;
   line-height: 150%;
+}
+.FoodMenuListItem {
+  width: 50%;
+  padding: 0 6rem;
+}
+.FoodMenuHeading {
+  position: relative;
+  top: 13rem;
+  left: 3rem;
+}
+.FullWidth .HeadingSmall {
+  top: 5rem;
+  left: 6rem;
+}
+.FullWidth .FoodMenuList {
+  margin: 8rem;
+}
+.FullWidth .FoodMenuListItem {
+  width: 33%;
 }
