@@ -21,6 +21,7 @@ body {
 }
 img {
   max-width: 100%;
+  height: auto;
 }
 p {
   font-size: 1.5rem
@@ -28,6 +29,7 @@ p {
 #Welcome {
   color: #ff3431;
   overflow: auto;
+  position: relative;
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -47,6 +49,7 @@ p {
   .ContentContainer {
     max-width: 375px;
     float: right;
+    margin: 16vh 6rem 3rem 3rem;
   }
 }
 
@@ -79,7 +82,6 @@ button {
   display: inline;
   margin: 0 0 0 .5rem;
   color: #ff3431;
-
 }
 .Instagram img {
   position: relative;
@@ -106,17 +108,6 @@ button {
     display: none;
   }
 }
-.GalleryLg {
-  display: none;
-}
-@media desktop {
-  .GalleryLg {
-  display: block;
-  }
-}
-.GalleryLgItem {
-
-}
 .GallerySmItem {
   max-width: 80%;
   margin: 2.5rem 0;
@@ -128,6 +119,57 @@ button {
 }
 .ImgRight {
   float: right;
+}
+.GalleryLg {
+  display: none;
+}
+@media desktop {
+  .GalleryLg {
+    width: 69%;
+    float: left;
+    display: block;
+  }
+  .GalleryLgItem {
+    height: auto;
+    width: 10%
+    margin: 1rem;
+    position: absolute;
+  }
+  .GalleryLgItem1 {
+    width: 15%;
+    top: 21%;
+    left: 3%;
+  }
+  .GalleryLgItem2 {
+    width: 21%;
+    top: -2%;
+    left: 22%;
+  }
+  .GalleryLgItem3 {
+    width: 10%;
+    top: 13%;
+    left: 47%;
+  }
+  .GalleryLgItem4 {
+    width: 15%;
+    top: 54%;
+    left: -1%;
+  }
+  .GalleryLgItem5 {
+    width: 21%;
+    top: 46%;
+    left: 38%;
+  }
+  .GalleryLgItem6 {
+    width: 21%;
+    top: 69%;
+    left: 13%;
+  }
+  .GalleryLgItem7 {
+    width: 10%;
+    top: 44%;
+    left: 23%;
+  }
 }
 
 
