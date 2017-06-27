@@ -394,7 +394,6 @@ button {
   letter-spacing: 2px;
   padding: 1rem 3rem;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
 }
 .Centered {
   margin: 0 auto;
@@ -564,13 +563,13 @@ button {
   top: 13rem;
   left: 3rem;
 }
-.FullWidth .HeadingSmall {
-  top: 5rem;
-  left: 6rem;
+.HeadingSmall.FullWidth {
+  margin: 12rem 6rem 4rem 6rem;
 }
-.FullWidth .FoodMenuList {
-  margin: 8rem;
+.FoodMenuList.FullWidth {
+  margin: 0 3rem;
+  top: 0;
 }
-.FullWidth .FoodMenuListItem {
+.FoodMenuListItem.FullWidth {
   width: 33%;
 }
