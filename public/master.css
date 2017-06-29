@@ -348,9 +348,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-p {
-  font-size: 1.5rem;
-}
 #Welcome {
   color: #ff3431;
   overflow: auto;
@@ -374,7 +371,7 @@ p {
   .ContentContainer {
     max-width: 375px;
     float: right;
-    margin: 16vh 6rem 3rem 3rem;
+    margin: 20vh 6rem 10rem 3rem;
   }
 }
 .HeadingLarge {
@@ -472,23 +469,23 @@ button {
   }
   .GalleryLgItem4 {
     width: 15%;
-    top: 54%;
+    top: 58%;
     left: -1%;
   }
   .GalleryLgItem5 {
     width: 21%;
     top: 46%;
-    left: 38%;
+    left: 41%;
   }
   .GalleryLgItem6 {
     width: 21%;
-    top: 69%;
+    top: 67%;
     left: 13%;
   }
   .GalleryLgItem7 {
     width: 10%;
     top: 44%;
-    left: 23%;
+    left: 25%;
   }
 }
 .FoodMenuContainer p {
@@ -499,7 +496,7 @@ button {
     float: left;
     position: relative;
     top: 3rem;
-    margin-left: 6rem;
+    margin: 10rem 6rem;
   }
 }
 .FoodMenuPricing {
