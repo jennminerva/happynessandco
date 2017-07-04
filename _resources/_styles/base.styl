@@ -34,6 +34,7 @@ img {
   padding: 3rem 3rem 4rem 3rem;
   background: #ffe3e2
   position: relative;
+  clear: both;
 }
 @media tablet {
   .ContentContainer {
@@ -42,7 +43,7 @@ img {
     padding: 6rem;  
   }
 }
-@media desktop {
+@media laptop {
   .ContentContainer {
     max-width: 375px;
     float: right;
@@ -51,6 +52,9 @@ img {
 }
 .HeadingLarge {
   width: 75%;
+}
+.HeadingLargeLogo {
+  width: 100%;
 }
 .Greeting {
   margin: 5rem 0;
@@ -98,7 +102,7 @@ button {
 .GallerySm {
   margin: 6rem 0;
 }
-@media desktop {
+@media laptop {
   .GallerySm {
     display: none;
   }
@@ -112,13 +116,13 @@ button {
   -moz-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
   box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1); 
 }
-.ImgRight {
+.FloatRight {
   float: right;
 }
 .GalleryLg {
   display: none;
 }
-@media desktop {
+@media laptop {
   .GalleryLg {
     width: 69%;
     float: left;

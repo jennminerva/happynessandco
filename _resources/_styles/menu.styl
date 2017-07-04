@@ -1,9 +1,7 @@
-#FoodMenu {
-}
 .FoodMenuContainer p {
 	margin: 2rem 0 0 0;
 }
-@media desktop {
+@media laptop {
 	.FoodMenuContainer .ContentContainer {
 		float: left;
 		position: relative;
@@ -26,7 +24,7 @@
 		margin: 4rem 15rem;
 	}
 }
-@media desktop {
+@media laptop {
 	.FoodMenuPricing {
 		margin: 4rem 0;
 	}
@@ -35,7 +33,7 @@
 	width: 50%;
 }
 .FoodMenuList {
-	margin: 9rem 5rem;
+	margin: 3rem 5rem;
 	position: relative;
 	top: 4rem;
 	clear: both;
@@ -45,7 +43,7 @@
 		margin: 9rem 11rem;
 		}
 }
-@media desktop {
+@media laptop {
 	.FoodMenuList {
 		clear: none;
 		display: flex;
@@ -63,25 +61,93 @@
 	margin: 0 0 4rem 3rem;
 	line-height: 150%;
 }
-.FoodMenuListItem {
-	width: 50%;
-	padding: 0 6rem;
+@media laptop {
+	.FoodMenuListItem {
+		width: 50%;
+		padding: 0 6rem;
+	}
 }
 .FoodMenuHeading {
+	margin: 0 0 0 3rem;
+	clear: both;
 	position: relative;
-	top: 13rem;
-	left: 3rem;
+	top: 3rem;
+}
+@media laptop {
+	.FoodMenuHeading {
+		top: 13rem;
+		clear: none;
+	}
 }
 
-// The "FullWidth" portion of the following class names refers to the full screen width food menu at the desktop breakpoint
+// The "FullWidth" portion of the following class names refers to the full screen width food menu at the laptop breakpoint
 
-.HeadingSmall.FullWidth {
-	margin: 12rem 6rem 4rem 6rem;
+@media laptop {
+	.HeadingSmall.FullWidth {
+		margin: 12rem 6rem 4rem 6rem;
+	}
+	.FoodMenuList.FullWidth {
+		margin: 0 3rem;
+		top: 0;
+	}
+	.FoodMenuListItem.FullWidth {
+		width: 33%;
+	}
 }
-.FoodMenuList.FullWidth {
-	margin: 0 3rem;
-	top: 0;
+
+// Ordering
+
+.HeadingLargeRequest {
+	width: 60%;
 }
-.FoodMenuListItem.FullWidth {
-	width: 33%;
+form {
+	clear: both;
+	margin: 6rem 4rem;
+}
+  @media laptop {
+     form {
+      
+    }
+  }
+input[type=checkbox], [type=radio] {
+ font-size: 1.3rem;
+ margin: 0 0 1rem 2rem;
+ font-family: 'Open Sans', sans-serif;
+}
+form p {
+	font-size: 1.5rem;
+}
+.TextAreaDescription {
+	margin: -1rem 2rem 2rem 2rem;
+}
+input {
+  padding: 1rem;
+}
+input[type="text"], [type="email"], [type="tel"]{
+  padding: .5rem;
+  width: 90%;
+  font-size: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.FormDateInput {
+  width: 4rem;
+  text-align: center;
+}
+// div.option {
+//  font-size: 1.3rem;
+//  margin: 0 0 1rem 2rem;
+//  font-family: 'Open Sans', sans-serif;
+// }
+textarea {
+  width: 100%;
+  height: 15rem;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 1.3rem
+}
+.Margin0 {
+	margin: 0;
 }
