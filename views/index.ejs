@@ -13,7 +13,7 @@
     <img class="HeadingLargeLogo" src="_img/logo.svg" alt="Happyness and Co">
     <p class="Greeting RedText">Life&#8217;s best moments are experienced with cake. Macarons will also do the trick. I&#8217;d love to help you make lasting memories, and maybe get you that sugar fix while we&#8217;re at it.</p>
     <a href="">
-    	<button class="BtnRequest SansSerif">Start an Order</button>
+    	<button class="SansSerif">Start an Order</button>
     </a>
     <a href="https://www.instagram.com/jennminerva/">
       <div class="Instagram">
@@ -163,10 +163,11 @@
       </div>
     </dl>
   </div>
-  <div class="Centered">
-  <a href="">
-    <button class="d-mt9 mt4 BtnRequest SansSerif">Start an Order</button>
-  </a>
+  <div class="BtnRequestContainer">
+    <a href="">
+      <button class="d-mt9 SansSerif">Start an Order</button>
+    </a>
+  </div>
 </section>
 <div class="GallerySm">
   <div class="GallerySmItem GalleryItemShadow">
@@ -201,60 +202,59 @@
     <p class="mt6 mb2 RedText">Prefered contact method:</p>
     <div class="">
       <input type="radio" name="contact" value="call">
-        <span class="pl1">Call me</span>
+        <span class="pl1 FontSize13 SansSerif">Call me</span>
     </div>
     <div class="">
       <input type="radio" name="contact" value="text">
-        <span class="pl1">Text me</span>
+        <span class="pl1 FontSize13 SansSerif">Text me</span>
     </div>
     <div class="">
       <input type="radio" name="contact" value="email">
-        <span class="pl1">Email me</span>
+        <span class="pl1 FontSize13 SansSerif">Email me</span>
     </div>
     <p class="mt6 mb2 RedText">When do you need your items?</p>
-      <input class="FormDateInput" type="tel" maxlength="2" name="month" placeholder="MM">/
+      <input class="FormDateInput mr0" type="tel" maxlength="2" name="month" placeholder="MM">
       <input class="FormDateInput" type="tel" maxlength="2" name="day" placeholder="DD">
     <p class="mt6 mb2 RedText">What can I create for you?</p>
     <div class="">
       <input type="checkbox" name="baked-good" value="cake">
-        <span class="pl1">Cake</span>
+        <span class="pl1 FontSize13 SansSerif">Cake</span>
     </div>
     <div class="">
       <input type="checkbox" name="baked-good" value="Macarons">
-        <span class="pl1">Macarons</span>
+        <span class="pl1 FontSize13 SansSerif">Macarons</span>
     </div>
     <div class="">
       <input type="checkbox" name="baked-good" value="other">
-        <span class="pl1">Other (comment below)</span>
+        <span class="pl1 FontSize13 SansSerif">Other (comment below)</span>
     </div>
     <p class="mt6 mb2 RedText">If ordering cake, what size?</p>
     <div class="">
       <input type="checkbox" name="size" value="small">
-        <span class="pl1">Small (10-12 servings)</span>
+        <span class="pl1 FontSize13 SansSerif">Small (10-12 servings)</span>
     </div>
     <div class="">
       <input type="checkbox" name="size" value="regular">
-      <span class="pl1">Regular (20-24 servings)</span>
+      <span class="pl1 FontSize13 SansSerif">Regular (20-24 servings)</span>
     </div>
     <div class="">
       <input type="checkbox" name="size" value="cupcakes">
-      <span class="pl1">Cupcakes</span>
+      <span class="pl1 FontSize13 SansSerif">Cupcakes</span>
     </div>
     <div class="">
       <input type="checkbox" name="size" value="tiered">
-      <span class="pl1">Tiered</span>
+      <span class="pl1 FontSize13 SansSerif">Tiered</span>
     </div>
     <div class="">
       <input type="checkbox" name="size" value="other">
-      <span class="pl1">Other</span>
+      <span class="pl1 FontSize13 SansSerif">Other</span>
     </div>
     <p class="mt6 mb2 RedText">Other information:</p>
     <p class="SansSerif">Cake size? Number of cupcakes or macarons? Flavor choices?</p>
-     <div class="option Margin0">
-      <textarea class="SansSerif" type="text" name="message">
-       </textarea>
+      <textarea class="SansSerif mt2" type="text" name="message"></textarea>
+    <div class="BtnSubmitContainer">
+      <input type="submit" class="BtnSubmit">
     </div>
-    <!-- <button></button> -->
   </form>
 </section>
 <% include partials/footer %>
