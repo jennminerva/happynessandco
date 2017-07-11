@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45 (43475) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="199" y="59" width="16" height="16" rx="8"></rect>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checks-and-Radios" transform="translate(-199.000000, -59.000000)">
+            <g id="Rectangle-3-Copy-2">
+                <use fill="#FFE3E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#FF3431" stroke-width="1" x="199.5" y="59.5" width="15" height="15" rx="7.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
