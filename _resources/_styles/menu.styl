@@ -36,10 +36,9 @@
 	width: 50%;
 }
 .FoodMenuList {
-	margin: 3rem 5rem;
-	position: relative;
-	top: 4rem;
+	margin: 4rem 5rem;
 	clear: both;
+	overflow: auto;
 }
 @media tablet {
 	.FoodMenuList {
@@ -73,12 +72,9 @@
 .FoodMenuHeading {
 	margin: 0 0 0 4rem;
 	clear: both;
-	position: relative;
-	top: 3rem;
 }
 @media laptop {
 	.FoodMenuHeading {
-		top: 13rem;
 		clear: none;
 	}
 }
@@ -86,8 +82,12 @@
 // The "FullWidth" portion of the following class names refers to the full screen width food menu at the laptop breakpoint
 
 @media laptop {
+	.First {
+		position: relative;
+		top: 13rem;
+	}
 	.HeadingSmall.FullWidth {
-		margin: 12rem 6rem 4rem 6rem;
+		margin: 10rem 6rem 6rem 6rem;
 	}
 	.FoodMenuList.FullWidth {
 		margin: 0 3rem;
@@ -97,11 +97,10 @@
 		width: 33%;
 	}
 }
-
 .BtnRequestContainer {
 	margin: 0 auto;
 	width: 196px;
 }
 .BtnRequest {
-	margin: 6rem 0;
+	margin: 2rem 0;
 }
