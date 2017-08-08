@@ -562,6 +562,14 @@ button {
   text-transform: uppercase;
   cursor: pointer;
 }
+button:hover {
+  background: #ff3431;
+  color: #ffe3e2;
+  -webkit-transition: background-color 200ms ease-out;
+  -moz-transition: background-color 200ms ease-out;
+  -o-transition: background-color 200ms ease-out;
+  transition: background-color 200ms ease-out;
+}
 .Instagram {
   margin: 6rem 0 0 0;
 }
