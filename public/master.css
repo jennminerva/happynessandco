@@ -48,10 +48,6 @@ h6 {
   color: #ff3431;
   margin: 0 0 3rem 0;
 }
-.SansSerif {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3rem;
-}
 .RedText {
   color: #ff3431;
 }
@@ -564,7 +560,7 @@ button {
   letter-spacing: 2px;
   padding: 1rem 3rem;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
 }
 .Instagram {
   margin: 6rem 0 0 0;
