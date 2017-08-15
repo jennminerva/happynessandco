@@ -672,8 +672,11 @@ button:hover {
     position: relative;
     top: 3rem;
     margin: 10rem 6rem;
-    height: 64rem;
+    height: 67rem;
   }
+}
+button .FoodMenuContainer {
+  margin: 4rem 0;
 }
 .FoodMenu {
   margin: 2.5rem 0;
@@ -760,7 +763,7 @@ button:hover {
     left: 4.7rem;
   }
   .HeadingSmall.FullWidth {
-    margin: 16rem 6rem 5rem 9rem;
+    margin: 22rem 6rem 5rem 9rem;
   }
   .FoodMenuList.FullWidth {
     margin: 0 3rem;
@@ -772,7 +775,12 @@ button:hover {
 }
 .BtnRequestContainer {
   margin: 0 auto;
-  width: 196px;
+  width: 250px;
+}
+@media (min-width: 62em) {
+  .BtnRequestContainer {
+    display: none;
+  }
 }
 .BtnRequest {
   margin: 2rem 0;
