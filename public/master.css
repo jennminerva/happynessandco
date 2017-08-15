@@ -663,6 +663,39 @@ button:hover {
     left: 25%;
   }
 }
+footer {
+  margin-top: 6rem;
+}
+.FooterIconContainer {
+  margin: 0 auto;
+  width: 81px;
+}
+.FooterIconEmail {
+  background-position: center center;
+  background-size: 50%;
+  border: none;
+  height: 28px;
+  width: 28px;
+}
+.FooterIconInsta {
+  background-position: center center;
+  background-size: 50%;
+  border: none;
+  height: 28px;
+  width: 28px;
+}
+.FooterAmp {
+  position: relative;
+  display: inline;
+  top: -1rem;
+  margin: 0 0.5rem;
+}
+.FooterCopywrite {
+  position: relative;
+  margin: 0 auto;
+  width: 135px;
+  padding: 1rem 0;
+}
 .FoodMenuContainer p {
   margin: 2rem 0 0 0;
 }
