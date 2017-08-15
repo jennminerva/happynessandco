@@ -672,6 +672,7 @@ button:hover {
     position: relative;
     top: 3rem;
     margin: 10rem 6rem;
+    height: 64rem;
   }
 }
 .FoodMenu {
@@ -707,7 +708,7 @@ button:hover {
 }
 @media (min-width: 48em) {
   .FoodMenuList {
-    margin: 9rem 11rem;
+    margin: 9rem 2rem 9rem 8rem;
   }
 }
 @media (min-width: 62em) {
@@ -721,17 +722,26 @@ button:hover {
 }
 .FoodMenuList dt {
   font-size: 1.5rem;
-  margin: 1rem;
+  margin: 1rem 0;
   color: #ff3431;
 }
 .FoodMenuList dd {
-  margin: 0 0 4rem 3rem;
+  margin: 0 0 4rem 0;
   line-height: 150%;
+  font-size: 1.3rem;
 }
 @media (min-width: 62em) {
   .FoodMenuListItem {
     width: 50%;
     padding: 0 6rem;
+  }
+  .FoodMenuListItemMiddle {
+    position: relative;
+    left: -1rem;
+  }
+  .FoodMenuListItemRight {
+    position: relative;
+    right: 2rem;
   }
 }
 .FoodMenuHeading {
@@ -747,9 +757,10 @@ button:hover {
   .First {
     position: relative;
     top: 13rem;
+    left: 4.7rem;
   }
   .HeadingSmall.FullWidth {
-    margin: 10rem 6rem 6rem 6rem;
+    margin: 16rem 6rem 5rem 9rem;
   }
   .FoodMenuList.FullWidth {
     margin: 0 3rem;
