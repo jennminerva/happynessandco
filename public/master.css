@@ -529,6 +529,7 @@ img {
   background: #ffe3e2;
   position: relative;
   clear: both;
+  height: 55rem;
 }
 @media (min-width: 48em) {
   .ContentContainer {
@@ -792,6 +793,7 @@ button .FoodMenuContainer {
 }
 @media (min-width: 62em) {
   .FoodMenuHeading {
+    margin: 0 0 0 4rem;
     clear: none;
     margin: 0 0 0 4rem;
   }
@@ -824,4 +826,7 @@ button .FoodMenuContainer {
 }
 .BtnRequest {
   margin: 2rem 0;
+}
+.MenuContentContainer {
+  height: 60rem;
 }
