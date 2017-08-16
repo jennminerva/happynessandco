@@ -515,8 +515,12 @@ img {
 #Welcome {
   color: #ff3431;
   position: relative;
-  height: 100vh;
   display: flex;
+}
+@media (min-width: 62em) {
+  #Welcome {
+    height: 100vh;
+  }
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -525,6 +529,7 @@ img {
   background: #ffe3e2;
   position: relative;
   clear: both;
+  height: 55rem;
 }
 @media (min-width: 48em) {
   .ContentContainer {
@@ -780,11 +785,12 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading {
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 5rem;
   clear: both;
 }
 @media (min-width: 62em) {
   .FoodMenuHeading {
+    margin: 0 0 0 4rem;
     clear: none;
   }
 }
@@ -816,4 +822,7 @@ button .FoodMenuContainer {
 }
 .BtnRequest {
   margin: 2rem 0;
+}
+.MenuContentContainer {
+  height: 60rem;
 }
