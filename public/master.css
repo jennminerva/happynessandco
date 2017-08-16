@@ -502,7 +502,6 @@ body {
   overflow-y: auto;
   overflow-x: hidden;
   margin: 0;
-  padding-bottom: 10vw;
   background: #ffe3e2;
 }
 .hidden {
@@ -516,8 +515,12 @@ img {
 #Welcome {
   color: #ff3431;
   position: relative;
-  height: 100vh;
   display: flex;
+}
+@media (min-width: 62em) {
+  #Welcome {
+    height: 100vh;
+  }
 }
 .ContentContainer {
   border: 1px solid #ff3431;
@@ -708,6 +711,9 @@ footer {
     height: 67rem;
   }
 }
+.MenuContentContainer {
+  height: 60rem;
+}
 button .FoodMenuContainer {
   margin: 4rem 0;
 }
@@ -781,12 +787,13 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading {
-  margin: 0 0 0 4rem;
+  margin: 0 0 0 5rem;
   clear: both;
 }
 @media (min-width: 62em) {
   .FoodMenuHeading {
     clear: none;
+    margin: 0 0 0 4rem;
   }
 }
 @media (min-width: 62em) {
