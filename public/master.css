@@ -1,10 +1,11 @@
 html {
   font-size: 10px;
-  font-family: 'Feijoa', serif, serif;
+  font-family: 'SofiaProMedium', Georgia, 'Feijoa', serif, serif;
 }
 @media (min-width: 62em) {
   body {
     font-size: 10px;
+    color: #470100;
   }
 }
 .unselectable {
@@ -44,9 +45,12 @@ h6 {
   cursor: default;
 }
 .HeadingSmall {
-  font-size: 2rem;
+  font-size: 1rem;
   color: #ff3431;
   margin: 0 0 3rem 0;
+  font-family: 'SofiaProSemiBold', 'FuturaLT-Bold', 'Apercu-Bold', Arial, sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 .RedText {
   color: #ff3431;
@@ -533,7 +537,6 @@ img {
 }
 @media (min-width: 48em) {
   .ContentContainer {
-    color: #000;
     margin: 10rem 6rem 0 6rem;
     padding: 6rem;
   }
@@ -560,11 +563,12 @@ button {
   border-radius: 75px;
   color: #ff3431;
   height: 4rem;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  letter-spacing: 0.1em;
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: 'SofiaProSemiBold', 'FuturaLT-Bold', 'Apercu-Bold', Arial, sans-serif;
 }
 button:hover {
   background: #ff3431;
@@ -668,11 +672,22 @@ button:hover {
   }
 }
 footer {
-  margin-top: 6rem;
+  margin: 6rem;
+  border-top: 1px solid #fe6d6a;
+  padding: 6rem 0;
+  display: flex;
 }
-.FooterIconContainer {
-  margin: 0 auto;
-  width: 81px;
+@media (min-width: 62em) {
+  footer {
+    margin: 18rem 6rem 6rem 6rem;
+    padding: 12rem 0;
+  }
+}
+@media (min-width: 62em) {
+  .FooterIconContainer {
+    width: 100%;
+    max-width: 375px;
+  }
 }
 .FooterIconEmail {
   background-position: center center;
@@ -694,11 +709,15 @@ footer {
   top: -1rem;
   margin: 0 0.5rem;
 }
-.FooterCopywrite {
+.FooterCopyright {
   position: relative;
-  margin: 0 auto;
-  width: 135px;
   padding: 1rem 0;
+}
+@media (min-width: 62em) {
+  .FooterCopyright {
+    padding: 0;
+    margin: -0.5rem 0 0 11rem;
+  }
 }
 .FoodMenuContainer p {
   margin: 2rem 0 0 0;
@@ -726,7 +745,7 @@ button .FoodMenuContainer {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 4rem 0;
   padding: 0;
   line-height: 175%;
@@ -776,7 +795,7 @@ button .FoodMenuContainer {
 @media (min-width: 62em) {
   .FoodMenuListItem {
     width: 50%;
-    padding: 0 6rem;
+    padding: 0 5rem;
   }
   .FoodMenuListItemMiddle {
     position: relative;
@@ -788,14 +807,15 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading {
-  margin: 0 0 0 5rem;
+  margin: 10rem 0;
   clear: both;
+  width: 100%;
+  color: #470100;
 }
 @media (min-width: 62em) {
   .FoodMenuHeading {
-    margin: 0 0 0 4rem;
-    clear: none;
-    margin: 0 0 0 4rem;
+    margin: 5rem 5rem;
+    clear: both;
   }
 }
 @media (min-width: 62em) {
@@ -816,7 +836,7 @@ button .FoodMenuContainer {
   }
 }
 .BtnRequestContainer {
-  margin: 0 auto;
+  margin-bottom: 6rem;
   width: 250px;
 }
 @media (min-width: 62em) {
@@ -826,6 +846,7 @@ button .FoodMenuContainer {
 }
 .BtnRequest {
   margin: 2rem 0;
+  width: 100%;
 }
 .MenuContentContainer {
   height: 60rem;

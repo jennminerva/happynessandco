@@ -43,9 +43,8 @@ img {
 }
 @media tablet {
   .ContentContainer {
-    color: black;
     margin: 10rem 6rem 0 6rem;
-    padding: 6rem;  
+    padding: 6rem;
   }
 }
 @media laptop {
@@ -70,11 +69,12 @@ button {
   border-radius: 75px;
   color: #ff3431;
   height: 4rem;
-  font-size: 1.3rem;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  letter-spacing: .1em;
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;
+  font-family: typeface-secondary
 }
 button:hover {
     background: #ff3431
@@ -85,7 +85,7 @@ button:hover {
     transition: background-color 200ms ease-out;
 }
 .Instagram {
-  margin: 6rem 0 0 0; 
+  margin: 6rem 0 0 0;
 }
 .Instagram p {
   display: inline;
@@ -125,7 +125,7 @@ button:hover {
 .GalleryItemShadow {
    -webkit-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
   -moz-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
-  box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1); 
+  box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
 }
 .FloatRight {
   float: right;
@@ -184,11 +184,22 @@ button:hover {
 // footer
 
 footer {
-  margin-top: 6rem;
+  margin: 6rem;
+	border-top: 1px solid --color-red;
+  padding: 6rem 0;
+  display: flex;
 }
-.FooterIconContainer {
-  margin: 0 auto;
-  width: 81px;
+@media laptop {
+  footer {
+    margin: 18rem 6rem 6rem 6rem;
+    padding: 12rem 0;
+  }
+}
+@media laptop {
+  .FooterIconContainer {
+    width: 100%;
+    max-width: 375px;
+  }
 }
 .FooterIconEmail {
   background-position: center center;
@@ -210,9 +221,13 @@ footer {
   top: -1rem;
   margin: 0 .5rem;
 }
-.FooterCopywrite {
+.FooterCopyright {
   position: relative;
-  margin: 0 auto;
-  width: 135px;
   padding: 1rem 0;
+}
+@media laptop {
+  .FooterCopyright {
+    padding: 0;
+    margin: -.5rem 0 0 11rem;
+  }
 }
