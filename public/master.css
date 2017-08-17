@@ -667,7 +667,7 @@ button:hover {
   .GalleryLgItem5 {
     width: 21%;
     top: 46%;
-    left: 44%;
+    left: 42%;
   }
   .GalleryLgItem6 {
     width: 21%;
@@ -688,8 +688,8 @@ footer {
 }
 @media (min-width: 62em) {
   footer {
-    margin: 18rem 6rem 6rem 6rem;
-    padding: 12rem 0;
+    margin: 18rem 6rem 0rem 6rem;
+    padding: 6rem 0;
   }
 }
 @media (min-width: 62em) {
