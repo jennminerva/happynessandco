@@ -13,8 +13,8 @@ html {
   font-family: 'SofiaProMedium', Arial, sans-serif, serif;
 }
 @media (min-width: 62em) {
-  body {
-    font-size: 10px;
+  html {
+    font-size: 11px;
     color: #470100;
   }
 }
@@ -543,7 +543,6 @@ img {
   background: #ffe3e2;
   position: relative;
   clear: both;
-  height: 55rem;
 }
 @media (min-width: 48em) {
   .ContentContainer {
@@ -738,11 +737,7 @@ footer {
     position: relative;
     top: 3rem;
     margin: 10rem 6rem;
-    height: 67rem;
   }
-}
-.MenuContentContainer {
-  height: 60rem;
 }
 button .FoodMenuContainer {
   margin: 4rem 0;
@@ -857,7 +852,4 @@ button .FoodMenuContainer {
 .BtnRequest {
   margin: 2rem 0;
   width: 100%;
-}
-.MenuContentContainer {
-  height: 60rem;
 }
