@@ -48,7 +48,7 @@ h6 {
   font-size: 1rem;
   color: #ff3431;
   margin: 0 0 3rem 0;
-  font-family: 'SofiaProSemiBold', 'FuturaLT-Bold', 'Apercu-Bold', Arial, sans-serif;
+  font-family: 'SofiaProSemiBold', Arial, sans-serif;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
@@ -568,7 +568,7 @@ button {
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;
-  font-family: 'SofiaProSemiBold', 'FuturaLT-Bold', 'Apercu-Bold', Arial, sans-serif;
+  font-family: 'SofiaProSemiBold', Arial, sans-serif;
 }
 button:hover {
   background: #ff3431;
