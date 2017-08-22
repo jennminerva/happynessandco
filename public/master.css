@@ -684,7 +684,6 @@ footer {
   margin: 6rem;
   border-top: 1px solid #fe6d6a;
   padding: 6rem 0;
-  display: flex;
 }
 @media (min-width: 62em) {
   footer {
@@ -725,8 +724,16 @@ footer {
 @media (min-width: 62em) {
   .FooterCopyright {
     padding: 0;
-    margin: -0.5rem 0 0 11rem;
+    margin: 3rem 0 0 0;
   }
+}
+.BtnRequestContainer {
+  margin-bottom: 2rem;
+  width: 250px;
+}
+.FooterBtnRequest {
+  margin: 2rem 0;
+  width: 100%;
 }
 .FoodMenuContainer p {
   margin: 2rem 0 0 0;
@@ -738,6 +745,9 @@ footer {
     top: 3rem;
     margin: 10rem 6rem;
   }
+}
+.MenuContentContainer {
+  height: 63rem;
 }
 button .FoodMenuContainer {
   margin: 4rem 0;
@@ -839,17 +849,4 @@ button .FoodMenuContainer {
   .FoodMenuListItem.FullWidth {
     width: 33%;
   }
-}
-.BtnRequestContainer {
-  margin-bottom: 6rem;
-  width: 250px;
-}
-@media (min-width: 62em) {
-  .BtnRequestContainer {
-    display: none;
-  }
-}
-.BtnRequest {
-  margin: 2rem 0;
-  width: 100%;
 }
