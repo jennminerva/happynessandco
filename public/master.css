@@ -578,6 +578,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   font-family: 'SofiaProSemiBold', Arial, sans-serif;
+  min-width: 19rem;
 }
 button:hover {
   background: #ff3431;
