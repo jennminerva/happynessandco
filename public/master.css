@@ -518,6 +518,11 @@ body {
   margin: 0;
   background: #ffe3e2;
 }
+@media (min-width: 48em) {
+  body {
+    margin-bottom: 37vh;
+  }
+}
 .hidden {
   display: none;
   opacity: 0;
@@ -546,14 +551,15 @@ img {
 }
 @media (min-width: 48em) {
   .ContentContainer {
+    color: #000;
     margin: 10rem 6rem 0 6rem;
     padding: 6rem;
+    max-width: 50%;
   }
 }
 @media (min-width: 62em) {
   .ContentContainer {
     max-width: 375px;
-    height: 57rem;
   }
 }
 .HeadingLarge {
@@ -572,13 +578,16 @@ button {
   border-radius: 75px;
   color: #ff3431;
   height: 4rem;
-  font-size: 1rem;
-  letter-spacing: 0.1em;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
   padding: 1rem 3rem;
   text-transform: uppercase;
   cursor: pointer;
+<<<<<<< Updated upstream
   font-family: 'SofiaProSemiBold', Arial, sans-serif;
   min-width: 19rem;
+=======
+>>>>>>> Stashed changes
 }
 button:hover {
   background: #ff3431;
@@ -681,6 +690,7 @@ button:hover {
     left: 25%;
   }
 }
+<<<<<<< Updated upstream
 footer {
   margin: 6rem;
   border-top: 1px solid #fe6d6a;
@@ -690,13 +700,61 @@ footer {
   footer {
     margin: 18rem 6rem 0rem 6rem;
     padding: 6rem 0;
+=======
+@media (min-width: 48em) {
+  .GalleryLg {
+    width: 69%;
+    display: block;
+>>>>>>> Stashed changes
+  }
+  .GalleryLgItem {
+    height: auto;
+    width: 10%;
+    margin: 1rem;
+    position: absolute;
+  }
+  .GalleryLgItem1 {
+    width: 15%;
+    top: 21%;
+    left: 3%;
+  }
+  .GalleryLgItem2 {
+    width: 21%;
+    top: -2%;
+    left: 22%;
+  }
+  .GalleryLgItem3 {
+    width: 10%;
+    top: 13%;
+    left: 47%;
+  }
+  .GalleryLgItem4 {
+    width: 15%;
+    top: 58%;
+    left: -1%;
+  }
+  .GalleryLgItem5 {
+    width: 21%;
+    top: 46%;
+    left: 44%;
+  }
+  .GalleryLgItem6 {
+    width: 21%;
+    top: 71%;
+    left: 13%;
+  }
+  .GalleryLgItem7 {
+    width: 10%;
+    top: 44%;
+    left: 25%;
   }
 }
-@media (min-width: 62em) {
-  .FooterIconContainer {
-    width: 100%;
-    max-width: 375px;
-  }
+footer {
+  margin-top: 6rem;
+}
+.FooterIconContainer {
+  margin: 0 auto;
+  width: 81px;
 }
 .FooterIconEmail {
   background-position: center center;
@@ -718,10 +776,13 @@ footer {
   top: -1rem;
   margin: 0 0.5rem;
 }
-.FooterCopyright {
+.FooterCopywrite {
   position: relative;
+  margin: 0 auto;
+  width: 135px;
   padding: 1rem 0;
 }
+<<<<<<< Updated upstream
 @media (min-width: 62em) {
   .FooterCopyright {
     padding: 0;
@@ -736,6 +797,8 @@ footer {
   margin: 2rem 0;
   width: 100%;
 }
+=======
+>>>>>>> Stashed changes
 .FoodMenuContainer p {
   margin: 2rem 0 0 0;
 }
