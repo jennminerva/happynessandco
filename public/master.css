@@ -847,19 +847,9 @@ button .FoodMenuContainer {
 .FoodMenuHeading.Second {
   margin-top: 16rem;
 }
-@media (min-width: 48em) {
-  .FoodMenuHeading.Second {
-    margin-top: 16rem;
-  }
-}
 @media (min-width: 62em) {
   .FoodMenuHeading.Second {
-    margin-top: 16rem;
-  }
-}
-@media (min-width: 90em) {
-  .FoodMenuHeading.Second {
-    margin-top: 16rem;
+    margin-top: 12rem;
   }
 }
 @media (min-width: 62em) {
