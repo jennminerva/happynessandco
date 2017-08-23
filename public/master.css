@@ -643,6 +643,7 @@ button:hover {
   .GalleryLg {
     width: 69%;
     display: block;
+    position: relative;
   }
   .GalleryLgItem {
     height: auto;
@@ -828,7 +829,7 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading {
-  margin: 10rem 0;
+  margin: 6rem 0;
   clear: both;
   width: 100%;
   color: #470100;
@@ -845,11 +846,16 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading.Second {
-  margin-top: 16rem;
+  margin-top: 12rem;
 }
 @media (min-width: 62em) {
   .FoodMenuHeading.Second {
     margin-top: 12rem;
+  }
+}
+@media (min-width: 75em) {
+  .FoodMenuHeading.Second {
+    margin-top: 10rem;
   }
 }
 @media (min-width: 62em) {
