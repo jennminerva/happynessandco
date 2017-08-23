@@ -623,6 +623,11 @@ button:hover {
   max-width: 80%;
   margin: 2.5rem 0;
 }
+@media (min-width: 48em) {
+  .GallerySmItem {
+    max-width: 60%;
+  }
+}
 .GalleryItemShadow {
   -webkit-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
   -moz-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
@@ -828,10 +833,33 @@ button .FoodMenuContainer {
   width: 100%;
   color: #470100;
 }
+@media (min-width: 48em) {
+  .FoodMenuHeading {
+    margin: 5rem 0;
+  }
+}
 @media (min-width: 62em) {
   .FoodMenuHeading {
     margin: 5rem 5rem;
     clear: both;
+  }
+}
+.FoodMenuHeading.Second {
+  margin-top: 16rem;
+}
+@media (min-width: 48em) {
+  .FoodMenuHeading.Second {
+    margin-top: 16rem;
+  }
+}
+@media (min-width: 62em) {
+  .FoodMenuHeading.Second {
+    margin-top: 16rem;
+  }
+}
+@media (min-width: 90em) {
+  .FoodMenuHeading.Second {
+    margin-top: 16rem;
   }
 }
 @media (min-width: 62em) {
