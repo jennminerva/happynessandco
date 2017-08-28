@@ -641,7 +641,7 @@ button:hover {
 }
 @media (min-width: 62em) {
   .GalleryLg {
-    width: 69%;
+    width: 100%;
     display: block;
     position: relative;
   }
