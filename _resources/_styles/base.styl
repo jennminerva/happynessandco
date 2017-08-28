@@ -42,15 +42,17 @@ img {
 }
 @media tablet {
   .ContentContainer {
-    margin: 10rem 6rem 0 6rem;
+    margin: 7rem 6rem 0 6rem;
     padding: 6rem;
     max-width: 375px;
+    min-width:375px;
   }
 }
 @media laptop {
   .ContentContainer {
     max-width: 375px;
     height: 57rem;
+    align-self: center;
   }
 }
 .HeadingLarge {
@@ -107,7 +109,7 @@ button:hover {
   z-index: -1;
 }
 
-// Gallery
+// Galleries
 
 .GallerySm {
   margin: 6rem 0;
@@ -122,8 +124,13 @@ button:hover {
   max-width: 80%;
   margin: 2.5rem 0;
 }
+@media tablet {
+  .GallerySmItem {
+    max-width: 60%;
+  }
+}
 .GalleryItemShadow {
-   -webkit-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
   -moz-box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
   box-shadow: 10px 10px 0px 0px rgba(218,123,122,0.1);
 }
@@ -135,8 +142,9 @@ button:hover {
 }
 @media laptop {
   .GalleryLg {
-    width: 69%;
+    width: 100%;
     display: block;
+    position: relative;
   }
   .GalleryLgItem {
     height: auto;
@@ -145,39 +153,40 @@ button:hover {
     position: absolute;
   }
   .GalleryLgItem1 {
-    width: 15%;
-    top: 21%;
-    left: 3%;
+    width: 25%;
+    top: -2%;
+    left: 39%;
   }
   .GalleryLgItem2 {
-    width: 21%;
-    top: -2%;
-    left: 22%;
+    width: 22%;
+    top: 8%;
+    left: 70%;
   }
   .GalleryLgItem3 {
-    width: 10%;
-    top: 13%;
-    left: 47%;
+    width: 29%;
+    top: 49%;
+    left: 68%;
   }
   .GalleryLgItem4 {
-    width: 15%;
-    top: 58%;
-    left: -1%;
+    width: 31%;
+    top: 64%;
+    left: 27%;
+    z-index: 9;
   }
   .GalleryLgItem5 {
-    width: 21%;
-    top: 46%;
-    left: 42%;
+    width: 32%;
+    top: 43%;
+    left: -2%;
   }
   .GalleryLgItem6 {
-    width: 21%;
-    top: 71%;
-    left: 13%;
+    width: 25%;
+    top: 6%;
+    left: 7%;
   }
   .GalleryLgItem7 {
-    width: 10%;
-    top: 44%;
-    left: 25%;
+    width: 16%;
+    top: 36%;
+    left: 42%;
   }
 }
 

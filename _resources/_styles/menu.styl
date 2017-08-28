@@ -86,10 +86,15 @@ button .FoodMenuContainer {
 	}
 }
 .FoodMenuHeading {
-	margin: 10rem 0;
+	margin: 6rem 0;
 	clear: both;
 	width: 100%;
 	color: --color-black
+}
+@media tablet {
+	.FoodMenuHeading {
+		margin: 5rem 0
+	}
 }
 @media laptop {
 	.FoodMenuHeading {
@@ -97,7 +102,19 @@ button .FoodMenuContainer {
 		clear: both;
 	}
 }
-
+.FoodMenuHeading.Second {
+	margin-top: 12rem;
+}
+@media laptop {
+	.FoodMenuHeading.Second {
+		margin-top: 12rem;
+	}
+}
+@media desktop {
+	.FoodMenuHeading.Second {
+		margin-top: 10rem;
+	}
+}
 // The "FullWidth" portion of the following class names refers to the full screen width food menu at the laptop breakpoint
 
 @media laptop {
