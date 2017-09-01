@@ -838,6 +838,11 @@ footer {
   max-width: 375px;
   height: 57rem;
 }
+@media (min-width: 48em) {
+  .MenuContentContainer {
+    height: 63rem;
+  }
+}
 button .FoodMenuContainer {
   margin: 4rem 0;
 }
@@ -928,7 +933,7 @@ button .FoodMenuContainer {
   }
 }
 .FoodMenuHeading.Second {
-  margin-top: 12rem;
+  margin-top: 9rem;
 }
 @media (min-width: 62em) {
   .FoodMenuHeading.Second {
