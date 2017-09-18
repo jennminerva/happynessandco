@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jennminerva/happynessandco/issues"
   },
-  "homepage": "https://github.com/jennminerva/happynessandco#readme"
+  "homepage": "https://github.com/jennminerva/happynessandco#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
 }
