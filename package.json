@@ -24,11 +24,9 @@
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-cli": "^0.1.13"
-  }
-  {
-    "scripts": {
+  },
+  "scripts": {
         "build": "grunt",
         "test": "grunt test"
-    }
   }
 }
