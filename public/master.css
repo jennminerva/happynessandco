@@ -780,10 +780,8 @@ footer {
 .FooterIconContainer {
   margin: 2rem 0;
 }
-@media (min-width: 62em) {
-  .FooterIconContainer {
-    display: none;
-  }
+.FooterCopyright {
+  margin: 3rem 0 0 0;
 }
 @media (min-width: 62em) {
   .FooterCopyright {
@@ -792,6 +790,11 @@ footer {
 }
 .BtnRequestContainer {
   width: 250px;
+}
+@media (min-width: 62em) {
+  .BtnRequestContainer {
+    display: none;
+  }
 }
 .BtnRequest {
   margin: 2rem 0;
